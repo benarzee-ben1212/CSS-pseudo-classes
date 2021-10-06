@@ -1,0 +1,36 @@
+.link {
+    font-size: 50px;
+}
+
+a:hover {
+    color: rgb(237, 237, 241);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    text-decoration:none;
+}
+
+/* Pseudo-classes can be combined with HTML classes:
+
+When you hover over the link in the example, it will change color:
+
+Example
+a.link:hover {
+  color: #ff0000;
+} */
+
+/* An example of using the :hover pseudo-class on a <div> element:
+
+Example
+div:hover {
+  background-color: blue;
+} */
+
+.div {
+    width:500px;
+    height:500px;
+    background-color: coral;
+}
+.div:hover {
+    background-color: rgb(114, 114, 128);
+    color: white;
+}
